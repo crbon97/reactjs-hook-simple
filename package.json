@@ -1,0 +1,68 @@
+{
+  "name": "isomorphic",
+  "version": "3.0.5",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.24.2",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "history": "^4.10.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.11.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.13.0",
+    "react-intl": "^2.9.0",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "react-slick": "^0.25.2",
+    "redux": "^4.0.4",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-dock-monitor": "^1.1.3",
+    "redux-devtools-log-monitor": "^1.4.0",
+    "redux-saga": "^1.1.1",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.0",
+    "styled-theme": "^0.3.3",
+    "sweetalert": "^2.1.2",
+    "swiper": "^5.0.4"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.2",
+    "customize-cra": "^0.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-to-json": "^3.4.2",
+    "react-app-rewired": "^2.1.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build:prod": "react-app-rewired build .env.production",
+    "build:test": "env-cmd -f .env.test react-app-rewired build",
+    "build:uat": "env-cmd -f .env.uat react-app-rewired build",
+    "serve": "serve -s build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
